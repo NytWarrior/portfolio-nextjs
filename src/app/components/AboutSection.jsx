@@ -28,7 +28,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>IIITDM Kancheepuram, Chennai</li>
         <li>Little Flower House Nagwa, Varanasi - 12th</li>
-        <li>St. John's B.L.W, Varanasi - 10th</li>
+        <li>St. John&apos;s B.L.W, Varanasi - 10th</li>
       </ul>
     ),
   },

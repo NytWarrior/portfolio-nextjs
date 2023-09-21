@@ -35,7 +35,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I'm a Full Stack Web Developer based in Varanasi, Uttar Pradesh.
+            I&apos;m a Full Stack Web Developer based in Varanasi, Uttar Pradesh.
           </p>
           <div>
             <Link
