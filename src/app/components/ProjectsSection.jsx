@@ -5,32 +5,33 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
+
   {
     id: 1,
+    title: "SocialApp",
+    description: "The SocialApp is a Social Media Website designed using Full Stack Web Development through Back-End Technology of MEN Stack (MongoDB, ExpressJS, NodeJS), & Passport Auths.",
+    image: "/images/projects/socialApp.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/NytWarrior/SocialApp3.0",
+    previewUrl: "https://socialapp3-0.onrender.com/",
+  },
+  {
+    id: 2,
+    title: "E-commerce Application",
+    description: "The E-commerce is a Ecommerce Website designed using Nextjs for user to buy, track and pay for the products and an admin panel for admin from where admin can access to everything going on the orders, products and payments.",
+    image: "/images/projects/Ecommerce.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/NytWarrior/dreamkart-nextjs",
+    previewUrl: "https://dream-kart.netlify.app/",
+  },
+  {
+    id: 3,
     title: "MovieWorld Application",
     description: "The MovieWorld is designed using Full Stack Web Development(MERN stack) for user to share reviews, can have their own favourites collections and can see the movie/tv-shows details, cast and other related stuffs.",
     image: "/images/projects/MovieWorld.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/NytWarrior/movie-app-mern",
     previewUrl: "https://movieworld-mern.netlify.app/",
-  },
-  {
-    id: 2,
-    title: "SocialApp",
-    description: "The SocialApp is a Social Media Website designed using Full Stack Web Development through Back-End Technology of MEN Stack (MongoDB, ExpressJS, NodeJS), & Passport Auths.",
-    image: "/images/projects/socialApp.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/NytWarrior/SocialApp2.0",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "E-commerce Application",
-    description: "The E-commerce is a Ecommerce Website designed using Full Stack Web Development using MERN stack for user to buy, track and pay for the products and an admin panel for admin from where admin can access to everything going on the orders, products and payments.",
-    image: "/images/projects/Ecommerce.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/NytWarrior/Ecommerce-app",
-    previewUrl: "/",
   },
 ];
 
