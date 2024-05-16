@@ -9,7 +9,7 @@ const projectsData = [
   {
     id: 1,
     title: "SocialApp",
-    description: "The SocialApp is a Social Media Website designed using Full Stack Web Development through Back-End Technology of MEN Stack (MongoDB, ExpressJS, NodeJS), & Passport Auths.",
+    description: "SocialApp is a social media website built with the MERN stack (MongoDB, ExpressJS, React.js, NodeJS) and Passport for authentication. It features real-time chat via socket.io, uses REST APIs for data management, and has a responsive, modern design for all devices.",
     image: "/images/projects/socialApp.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/NytWarrior/SocialApp3.0",
